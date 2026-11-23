@@ -2,7 +2,7 @@
 
 Financial management for small businesses: income, expenses, accounts and categories, with the right balance at the end of the month. A rebuild of FinancesFlow with a new identity and a much faster stack.
 
-Click **Ver demonstração** to explore a year of data from a fictional bakery without signing up.
+**Live:** https://caramelo-khaki.vercel.app. Click **Ver demonstração** to explore a year of data from a fictional bakery without signing up.
 
 ## Why the rebuild
 

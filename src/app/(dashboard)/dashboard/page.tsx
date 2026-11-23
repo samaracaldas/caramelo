@@ -169,7 +169,7 @@ export default function DashboardPage() {
         <h1 className="text-[32px] font-normal leading-[1.1] tracking-[-0.035em] sm:text-[38px]">
           <span suppressHydrationWarning>{greeting()}</span>{firstName ? `, ${firstName}` : ''}
         </h1>
-        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:px-0">
+        <div className="-mx-4 flex gap-2 overflow-x-auto px-4 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:px-0 [&::-webkit-scrollbar]:hidden">
           {QUICK_ACTIONS.map(({ label, href, icon: ActionIcon }, i) => (
             <Link key={href} href={href} className={cn(buttonVariants({ variant: i === 0 ? 'default' : 'secondary', size: 'sm' }), 'h-9 shrink-0')}>
               <ActionIcon weight="bold" />{label}
